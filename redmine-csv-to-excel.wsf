@@ -2,6 +2,7 @@
 <package>
   <job>
     <script language="JScript" src="lib/mado.js"></script>
+    <script language="JScript" src="lib/rfc4180.js"></script>
     <script language="JScript" src="redmine-csv-to-excel.js"></script>
   </job>
 </package>
