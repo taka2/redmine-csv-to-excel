@@ -4,7 +4,7 @@ var port = 80;
 
 // Configuration for target project
 var projectName = "redmine";
-var path = "/projects/" + projectName + "/issues.csv?op%5Bstatus_id%5D=*&columns=all";
+var path = "/projects/" + projectName + "/issues.csv?f%5B%5D=status_id&op%5Bstatus_id%5D=*&c%5B%5D=status&columns=all";
 
 // Configuration for CSV file
 var csvFileColumnNames = [
