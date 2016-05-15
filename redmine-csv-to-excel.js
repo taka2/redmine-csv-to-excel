@@ -38,7 +38,7 @@ HTTP.start(host, port, function(http) {
   }
 
   // Output to excel file
-  var outputFileName = "redmine_" + new Date().getYYYYMMDDHH24MISS() + ".xls";
+  var outputFileName = "output/redmine_" + new Date().getYYYYMMDDHH24MISS() + ".xls";
   File.copy("template/redmine_template.xls", outputFileName);
   var scriptPath = __FILE__.substring(0, __FILE__.lastIndexOf("\\"));
 
